@@ -3,6 +3,12 @@
 Utilitário que lê os arquivos oficiais de uma classificação de doenças (CID) e gera um CSV normalizado, com apenas as colunas
 necessárias e os valores já tratados, pronto para ser importado por outro sistema.
 
+## Download
+
+A janela está pronta para usar na página de [Releases](https://github.com/marcelom1/ConversorCid/releases/latest): baixe o
+`ConversorCidGui.exe` (Windows x64, executável único, não precisa do .NET instalado) e abra. O SHA-256 de cada versão está nas notas da Release.
+A linha de comando (`ConversorCid.exe`) não é publicada pronta: compile-a a partir do código (ver "Build e testes").
+
 | Perfil | Entrada | Saída |
 |---|---|---|
 | `cid11` | planilha `.xlsx` *SimpleTabulation ICD-11 MMS* da OMS (português) | `Cid11.csv` |
