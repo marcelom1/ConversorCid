@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>ConversorCid</AssemblyName>
+    <RootNamespace>ConversorCid.Cli</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConversorCid.Core\ConversorCid.Core.csproj" />
+  </ItemGroup>
+
+</Project>

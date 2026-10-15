@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+publish/
+*.docx
+*.xlsx
+~$*
+exemplo/
